@@ -1,0 +1,10 @@
+# Build output
+/bin/
+
+# Local benchmark inputs
+/.bench/
+
+# Test and profiling artifacts
+*.test
+*.out
+*.prof

@@ -1,0 +1,20 @@
+2024-01-15T10:00:00Z INFO server started on port 8080
+2024-01-15T10:00:01Z INFO connected to database primary
+2024-01-15T10:00:05Z DEBUG cache warmup complete in 120ms
+2024-01-15T10:00:10Z INFO request completed path=/api/users status=200 duration=12ms
+2024-01-15T10:00:12Z WARN slow query took 1500ms on table orders
+2024-01-15T10:00:15Z ERROR database connection to 10.0.0.5:5432 failed: connection refused
+2024-01-15T10:00:16Z ERROR database connection to 10.0.0.6:5432 failed: connection refused
+2024-01-15T10:00:20Z INFO request completed path=/api/orders status=200 duration=8ms
+2024-01-15T10:00:30Z ERROR payment 1001 declined for user 42
+2024-01-15T10:00:31Z ERROR database connection to 10.0.0.5:5432 failed: connection refused
+
+this line has no level at all
+2024-01-15T10:01:05Z ERROR timeout after 3000ms calling inventory service
+2024-01-15T10:01:06Z ERROR timeout after 5000ms calling inventory service
+2024-01-15T10:01:10Z WARNING retrying request 550e8400-e29b-41d4-a716-446655440000
+2024-01-15T10:01:15Z ERROR payment 2002 declined for user 7
+2024-13-40T99:00:00Z ERROR impossible timestamp
+2024-01-15T10:01:20Z ERROR
+2024-01-15T10:02:00Z FATAL out of memory: allocated 2048 MB of 2048 MB
+2024-01-15T10:02:01Z INFO shutting down
